@@ -22,7 +22,7 @@ To set a baseline for our project, we initially built a predictive model without
 
 We focused on improving model performance by addressing the following key areas:
 
-1. **Class Imbalance**: Dealing with class imbalance using various techniques, such as oversampling, undersampling, and using class weights.
+1. **Class Imbalance**: Dealing with class imbalance using various techniques, such as oversampling and using synthetic minority over sampling SMOTE.
 
 2. **Feature Selection**: Identifying the most relevant features through careful analysis and experimentation. After experimenting, we found that the following combined features yield the highest F1 score for predicting default:
 
